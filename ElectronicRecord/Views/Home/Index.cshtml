@@ -1,0 +1,27 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <img src="@Url.Content("~/Images/image.jpg")" alt="IMAGES" class="img-thumbnail img-circle" />
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Medici</h2>
+        <p>
+            @Html.ActionLink("Vezi medici", "Index", "Medics")
+        </p>
+    </div>
+    <div class="col-md-4">
+        <h2>Pacienti</h2>
+        @Html.ActionLink("Vezi pacienti", "Index", "Pacients")<br/>
+        @Html.ActionLink("Adauga pacient", "Create", "Pacients")
+    </div>
+    <div class="col-md-4">
+        <h2>Programari</h2>
+        @Html.ActionLink("Vezi programari", "CurrentVisit", "Programares")<br/>
+        @Html.ActionLink("Vezi toate programarile", "Index", "Programares")<br/>
+        @Html.ActionLink("Adauga programare", "Find", "Programares")
+    </div>
+</div>

@@ -1,0 +1,61 @@
+﻿@model IEnumerable<ElectronicRecord.Models.Pacient>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Pacienti</h2>
+
+<p>
+    @Html.ActionLink("Adauga Pacient", "Create")
+</p>
+@using (Html.BeginForm())
+{
+    <div class="search">
+        <input type="text" name="nume" id="nume" class="form-control">
+        <input type="submit" value="Cauta" class="btn btn-primary btn-lg" />
+    </div>
+    <br class="clear-float">
+    <h6>*Cautarea poate avea loc dupa nume,penume, oras sau judet.</h6>
+}
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Nume)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Prenume)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Adresa)
+        </th>
+        <th>
+            Oras
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nume)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Prenume)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Adresa)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Oras.Denumire)
+        </td>
+        <td>
+            @Html.ActionLink("Modifica", "Edit", new { id = item.ID }, new { @class = "btn btn-primary btn-lg" }) 
+            @Html.ActionLink("Detalii", "Details", new { id = item.ID }, new { @class = "btn btn-primary btn-lg" }) 
+            @Html.ActionLink("Sterge", "Delete", new { id = item.ID }, new { @class = "btn btn-primary btn-lg" })
+        </td>
+    </tr>
+}
+
+</table>

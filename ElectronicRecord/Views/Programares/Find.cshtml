@@ -1,0 +1,64 @@
+﻿@model IEnumerable<ElectronicRecord.Models.Pacient> 
+
+@{
+    ViewBag.Title = "Find";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+@using (Html.BeginForm())
+{
+    <div class="search">
+        <input type="text" name="nume" id="nume" placeholder="Nume" class="form-control">
+        <input type="text" name="prenume" id="prenume" placeholder="Prenume" class="form-control">
+        <input type="submit" value="Cauta" class="btn btn-primary btn-lg" />
+    </div>
+    <br class="clear-float">
+    <br/>
+}
+<br />
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Nume)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Prenume)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Adresa)
+        </th>
+        <th>
+            Oras
+        </th>
+        <th>
+            Telefon
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nume)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Prenume)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Adresa)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Oras.Denumire)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NrTelefon)
+            </td>
+            <td>
+                @Html.ActionLink("Adauga", "Create", "Programares", new { id = item.ID }, new { @class = "btn btn-primary btn-lg" })
+            </td>
+        </tr>
+    }
+
+</table>

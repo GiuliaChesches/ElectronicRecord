@@ -1,0 +1,86 @@
+﻿@model ElectronicRecord.Models.Pacient
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2>@ViewBag.Error</h2>
+<h3>Esti sigur ca vrei sa stergi acest pacient?</h3>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Nume)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nume)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Prenume)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Prenume)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Sex)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Sex)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Adresa)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Adresa)
+        </dd>
+
+        <dt>
+            Data nasterii
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DataNasterii)
+        </dd>
+
+        <dt>
+            Telefon
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NrTelefon)
+        </dd>
+
+        <dt>
+            Oras
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Oras.Denumire)
+        </dd>
+        <dt>
+            Judet
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Oras.Judet.Denumire)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                @Html.ActionLink("Inapoi", "Index","Pacients", new { @class = "btn btn-primary btn-lg" })
+                <input type="submit" value="Sterge" class="btn btn-primary btn-lg" />
+                
+            </div>
+        </div>
+            }
+        </div>

@@ -1,0 +1,41 @@
+﻿@model ElectronicRecord.Models.Programare
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h3>Esti sigur ca vrei sa stergi?</h3>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Data)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Data)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Pacient.Nume)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Pacient.Nume)
+            @Html.DisplayFor(model => model.Pacient.Prenume)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            @Html.ActionLink("Inapoi", "Index", "Programares", new { @class = "btn btn-primary btn-lg" })
+            <input type="submit" value="Sterge" class="btn btn-primary btn-lg" />
+        </div>
+    </div>
+    }
+    
+</div>

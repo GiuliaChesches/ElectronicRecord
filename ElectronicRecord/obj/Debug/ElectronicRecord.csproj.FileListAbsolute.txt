@@ -1,0 +1,56 @@
+C:\Users\Giulia\Documents\Visual Studio 2013\Projects\ElectronicRecord\ElectronicRecord\obj\Debug\ElectronicRecord.csprojResolveAssemblyReference.cache
+C:\Users\Giulia\Documents\Visual Studio 2013\Projects\ElectronicRecord\ElectronicRecord\bin\ElectronicRecord.dll.config
+C:\Users\Giulia\Documents\Visual Studio 2013\Projects\ElectronicRecord\ElectronicRecord\bin\ElectronicRecord.dll
+C:\Users\Giulia\Documents\Visual Studio 2013\Projects\ElectronicRecord\ElectronicRecord\bin\ElectronicRecord.pdb
+C:\Users\Giulia\Documents\Visual Studio 2013\Projects\ElectronicRecord\ElectronicRecord\bin\Antlr3.Runtime.dll
+C:\Users\Giulia\Documents\Visual Studio 2013\Projects\ElectronicRecord\ElectronicRecord\bin\EntityFramework.dll
+C:\Users\Giulia\Documents\Visual Studio 2013\Projects\ElectronicRecord\ElectronicRecord\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Giulia\Documents\Visual Studio 2013\Projects\ElectronicRecord\ElectronicRecord\bin\Newtonsoft.Json.dll
+C:\Users\Giulia\Documents\Visual Studio 2013\Projects\ElectronicRecord\ElectronicRecord\bin\System.Web.Helpers.dll
+C:\Users\Giulia\Documents\Visual Studio 2013\Projects\ElectronicRecord\ElectronicRecord\bin\System.Web.Mvc.dll
+C:\Users\Giulia\Documents\Visual Studio 2013\Projects\ElectronicRecord\ElectronicRecord\bin\System.Web.Optimization.dll
+C:\Users\Giulia\Documents\Visual Studio 2013\Projects\ElectronicRecord\ElectronicRecord\bin\System.Web.Razor.dll
+C:\Users\Giulia\Documents\Visual Studio 2013\Projects\ElectronicRecord\ElectronicRecord\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Giulia\Documents\Visual Studio 2013\Projects\ElectronicRecord\ElectronicRecord\bin\System.Web.WebPages.dll
+C:\Users\Giulia\Documents\Visual Studio 2013\Projects\ElectronicRecord\ElectronicRecord\bin\System.Web.WebPages.Razor.dll
+C:\Users\Giulia\Documents\Visual Studio 2013\Projects\ElectronicRecord\ElectronicRecord\bin\WebGrease.dll
+C:\Users\Giulia\Documents\Visual Studio 2013\Projects\ElectronicRecord\ElectronicRecord\bin\EntityFramework.xml
+C:\Users\Giulia\Documents\Visual Studio 2013\Projects\ElectronicRecord\ElectronicRecord\bin\System.Web.Helpers.xml
+C:\Users\Giulia\Documents\Visual Studio 2013\Projects\ElectronicRecord\ElectronicRecord\bin\System.Web.Mvc.xml
+C:\Users\Giulia\Documents\Visual Studio 2013\Projects\ElectronicRecord\ElectronicRecord\bin\System.Web.Optimization.xml
+C:\Users\Giulia\Documents\Visual Studio 2013\Projects\ElectronicRecord\ElectronicRecord\bin\System.Web.Razor.xml
+C:\Users\Giulia\Documents\Visual Studio 2013\Projects\ElectronicRecord\ElectronicRecord\bin\System.Web.WebPages.xml
+C:\Users\Giulia\Documents\Visual Studio 2013\Projects\ElectronicRecord\ElectronicRecord\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Giulia\Documents\Visual Studio 2013\Projects\ElectronicRecord\ElectronicRecord\bin\System.Web.WebPages.Razor.xml
+C:\Users\Giulia\Documents\Visual Studio 2013\Projects\ElectronicRecord\ElectronicRecord\bin\Antlr3.Runtime.pdb
+C:\Users\Giulia\Documents\Visual Studio 2013\Projects\ElectronicRecord\ElectronicRecord\bin\Newtonsoft.Json.xml
+C:\Users\Giulia\Documents\Visual Studio 2013\Projects\ElectronicRecord\ElectronicRecord\obj\Debug\ElectronicRecord.dll
+C:\Users\Giulia\Documents\Visual Studio 2013\Projects\ElectronicRecord\ElectronicRecord\obj\Debug\ElectronicRecord.pdb
+E:\school\Licenta\.NET Projects\ElectronicRecord\ElectronicRecord\bin\ElectronicRecord.dll.config
+E:\school\Licenta\.NET Projects\ElectronicRecord\ElectronicRecord\bin\ElectronicRecord.dll
+E:\school\Licenta\.NET Projects\ElectronicRecord\ElectronicRecord\bin\ElectronicRecord.pdb
+E:\school\Licenta\.NET Projects\ElectronicRecord\ElectronicRecord\bin\Antlr3.Runtime.dll
+E:\school\Licenta\.NET Projects\ElectronicRecord\ElectronicRecord\bin\EntityFramework.dll
+E:\school\Licenta\.NET Projects\ElectronicRecord\ElectronicRecord\bin\Microsoft.Web.Infrastructure.dll
+E:\school\Licenta\.NET Projects\ElectronicRecord\ElectronicRecord\bin\Newtonsoft.Json.dll
+E:\school\Licenta\.NET Projects\ElectronicRecord\ElectronicRecord\bin\System.Web.Helpers.dll
+E:\school\Licenta\.NET Projects\ElectronicRecord\ElectronicRecord\bin\System.Web.Mvc.dll
+E:\school\Licenta\.NET Projects\ElectronicRecord\ElectronicRecord\bin\System.Web.Optimization.dll
+E:\school\Licenta\.NET Projects\ElectronicRecord\ElectronicRecord\bin\System.Web.Razor.dll
+E:\school\Licenta\.NET Projects\ElectronicRecord\ElectronicRecord\bin\System.Web.WebPages.Deployment.dll
+E:\school\Licenta\.NET Projects\ElectronicRecord\ElectronicRecord\bin\System.Web.WebPages.dll
+E:\school\Licenta\.NET Projects\ElectronicRecord\ElectronicRecord\bin\System.Web.WebPages.Razor.dll
+E:\school\Licenta\.NET Projects\ElectronicRecord\ElectronicRecord\bin\WebGrease.dll
+E:\school\Licenta\.NET Projects\ElectronicRecord\ElectronicRecord\bin\EntityFramework.xml
+E:\school\Licenta\.NET Projects\ElectronicRecord\ElectronicRecord\bin\System.Web.Helpers.xml
+E:\school\Licenta\.NET Projects\ElectronicRecord\ElectronicRecord\bin\System.Web.Mvc.xml
+E:\school\Licenta\.NET Projects\ElectronicRecord\ElectronicRecord\bin\System.Web.Optimization.xml
+E:\school\Licenta\.NET Projects\ElectronicRecord\ElectronicRecord\bin\System.Web.Razor.xml
+E:\school\Licenta\.NET Projects\ElectronicRecord\ElectronicRecord\bin\System.Web.WebPages.xml
+E:\school\Licenta\.NET Projects\ElectronicRecord\ElectronicRecord\bin\System.Web.WebPages.Deployment.xml
+E:\school\Licenta\.NET Projects\ElectronicRecord\ElectronicRecord\bin\System.Web.WebPages.Razor.xml
+E:\school\Licenta\.NET Projects\ElectronicRecord\ElectronicRecord\bin\Antlr3.Runtime.pdb
+E:\school\Licenta\.NET Projects\ElectronicRecord\ElectronicRecord\bin\Newtonsoft.Json.xml
+E:\school\Licenta\.NET Projects\ElectronicRecord\ElectronicRecord\obj\Debug\ElectronicRecord.csprojResolveAssemblyReference.cache
+E:\school\Licenta\.NET Projects\ElectronicRecord\ElectronicRecord\obj\Debug\ElectronicRecord.dll
+E:\school\Licenta\.NET Projects\ElectronicRecord\ElectronicRecord\obj\Debug\ElectronicRecord.pdb

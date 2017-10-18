@@ -1,0 +1,23 @@
+﻿@model ElectronicRecord.Models.Medic
+
+@{
+    ViewBag.Title = "LogIn";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using (Html.BeginForm())
+{
+   // @Html.ValidationSummary(true, "Conectare nereusita.");
+    <div class="container-login">
+        <fieldset>
+            <legend>Log In</legend>
+            <div class="input-lg">
+                <input type="text" name="NumeUtilizator" id="NumeUtilizator" value="chesches.giulia" class="form-control">
+            </div>
+            <div class="input-lg">
+                <input type="password" name="Parola" id="Parola" value="giulia" class="form-control">
+             </div>
+            <input type="submit" value="Log In" class="btn btn-primary btn-lg btn-block btn-login" />
+        </fieldset>
+    </div>
+}

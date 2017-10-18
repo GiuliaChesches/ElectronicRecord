@@ -1,0 +1,47 @@
+﻿@model IEnumerable<ElectronicRecord.Models.Programare>
+
+@{
+    ViewBag.Title = "CurrentVisit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h3>Programari din ziua curenta: @ViewBag.Data</h3>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Data)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Pacient.Nume)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Pacient.Prenume)
+        </th>
+        <th>
+            Telefon
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Data)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Pacient.Nume)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Pacient.Prenume)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Pacient.NrTelefon)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.ID }, new { @class = "btn btn-primary btn-lg" })
+                @Html.ActionLink("Delete", "Delete", new { id = item.ID }, new { @class = "btn btn-primary btn-lg" })
+            </td>
+        </tr>
+    }
+
+</table>

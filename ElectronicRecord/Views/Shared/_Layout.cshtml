@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - ElectronicRecord</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("Electronic Record", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    @if (Request.IsAuthenticated) {
+                        <p class="userName">Bine ai venit, <b>@Html.Encode(User.Identity.Name)</b> !</p>
+                        <li>@Html.ActionLink("Log Out", "LogOut", "User")</li>
+                    }
+                    else
+                    {
+                        <li>@Html.ActionLink("Log In", "LogIn", "User")</li>
+                        <li>@Html.ActionLink("Inregistrare", "Registration", "User")</li>
+                    }
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container body-content">
+        @if (Request.IsAuthenticated) {
+            <div  class="body-content-left">
+                 
+                    @Html.ActionLink("Profilul meu", "Index", "User")
+                    <hr/>
+                    <p>Medici</p>
+                    @Html.ActionLink("Vezi Medici", "Index", "Medics")
+                    <hr/>
+                    <p>Pacienti</p>
+                    @Html.ActionLink("Vezi Pacienti", "Index", "Pacients") <br/>
+                    @Html.ActionLink("Adauga Pacient", "Create", "Pacients")
+                    <hr />
+                    <p>Programari</p>
+                    @Html.ActionLink("Vezi programari", "CurrentVisit", "Programares") <br />
+                    @Html.ActionLink("Vezi toate programarile", "Index", "Programares") <br />
+                    @Html.ActionLink("Adauga programare", "Find", "Programares")
+                
+            </div>
+            <div class="body-content-right">
+              @RenderBody()
+            </div>
+        }
+        else
+        {
+            @RenderBody()
+        }  
+        
+        <br class="clear-float"/>
+        <hr/>
+        <footer>
+            <p>&copy; @DateTime.Now.Year - ElectronicRecord</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
