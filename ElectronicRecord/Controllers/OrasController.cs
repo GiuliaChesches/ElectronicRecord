@@ -32,7 +32,7 @@ namespace ElectronicRecord.Controllers
                 db.Orase.Add(oras);
                 db.SaveChanges();
             }
-            ViewBag.Message = "Orasul a fost adaugat";
+            ViewBag.Message = "Orasul a fost adaugat cu succes";
             ViewBag.JudetID = new SelectList(db.Judete, "ID", "Denumire", oras.JudetID);
             return View(oras);
         }
