@@ -22,7 +22,7 @@ namespace ElectronicRecord.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Your application description page. test rebase";
 
             return View();
         }

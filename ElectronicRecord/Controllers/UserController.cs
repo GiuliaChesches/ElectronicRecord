@@ -42,7 +42,7 @@ namespace ElectronicRecord.Controllers
                 }
                 else
                 {
-                    ModelState.AddModelError("", "Login Data is incorrect.");
+                    ModelState.AddModelError("", "Datele de logare sunt incorrecte.");
                 }
             return View(user);
         }
